@@ -20,6 +20,7 @@ public class UsuarioService {
     private final UsuarioRepository usuarioRepositoey;
     private final PasswordEncoder passwordEncoder;
 
+
     // Responsavel apenas pro salvar usuario
     public Usuario salvarUsuario(Usuario usuario) {
         //Regra de negocio
